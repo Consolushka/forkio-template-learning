@@ -1,0 +1,27 @@
+.btn{
+    overflow: auto;
+    border-radius: 20px;
+}
+
+.btn-header{
+    padding: 13px 15px 13px 15px;
+    margin-right: 5px;
+    background-color: #ffffff;
+    color: #7e798a;
+}
+.btn-header:hover{
+    color: #262529;
+    background-color: #c1b2e7;
+    transition-duration: 0.4s;
+}
+.btn-buy{
+    color: #ffffff;
+    padding-left: 44px;
+    padding-right: 44px;
+    background-color: #8d81ac;
+}
+
+.btn-buy:hover{
+    background-color: #312f34;
+    color: #ffffff;
+}

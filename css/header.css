@@ -1,3 +1,24 @@
 .header {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    margin: 0 auto;
+    width: 1125px;
+    min-height: 104px;
 }
+
+.header-guide {
+    list-style: none;
+    width: 680px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-guide-buy {
+    margin-left: auto;
+}
+

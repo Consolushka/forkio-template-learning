@@ -1,15 +1,20 @@
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 10px 0 10px;
     margin: 0 auto;
-    width: 1125px;
+    width: 1378px;
     min-height: 104px;
 }
 
+.main-logo {
+    margin-left: -6px;
+}
+
 .header-guide {
+    padding: 4px 0 0 13px;
     list-style: none;
     width: 680px;
     display: flex;
@@ -20,5 +25,6 @@
 
 .header-guide-buy {
     margin-left: auto;
+    margin-right: -27px;
 }
 

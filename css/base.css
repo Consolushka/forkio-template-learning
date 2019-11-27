@@ -12,3 +12,10 @@ a{
 *::before {
     box-sizing: inherit;
 }
+
+.container {
+    margin-lefT: auto;
+    margin-right: auto;
+    width: 1170px;
+    padding: 0 15px 0 15px;
+}

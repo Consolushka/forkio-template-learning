@@ -15,6 +15,7 @@
     transition-duration: 0.4s;
 }
 .btn-buy{
+    align-self: center;
     color: #ffffff;
     margin-right: 0;
     padding: 10px 44px 9px 44px;

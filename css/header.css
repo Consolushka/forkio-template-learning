@@ -17,11 +17,13 @@
 .header-guide {
     padding-top: 4px;
     list-style: none;
-    width: 680px;
+    min-height: 104px;
+    min-width: 680px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .header-guide-buy {

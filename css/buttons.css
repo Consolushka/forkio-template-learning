@@ -26,3 +26,16 @@
     background-color: #312f34;
     color: #ffffff;
 }
+
+.big-btn {
+    padding: 20px 90px 20px 93px;
+    border-radius: 50px;
+
+    font-size: 21px;
+}
+
+.big-btn:hover {
+    color: #262529;
+    background-color: #c1b2e7;
+    transition-duration: 0.4s;
+}

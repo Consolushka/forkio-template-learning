@@ -1,0 +1,33 @@
+.for-git {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 74px;
+}
+
+.heading {
+    font-size: 54px;
+    text-transform: uppercase;
+    color: #635c73;
+    font-weight: 400;
+
+    margin-bottom: 0;
+}
+
+.description-for-git {
+    width: 920px;
+
+    margin-top: 20px;
+
+    line-height: 31px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #919191;
+}
+
+.git-buttons {
+    margin-left: 7px;
+    margin-top: 8px;
+}

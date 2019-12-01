@@ -1,7 +1,9 @@
 .btn{
     border-radius: 20px;
     padding: 10px 15px 9px 15px;
+
     background-color: #ffffff;
+
     color: #7e798a;
 }
 
@@ -11,19 +13,24 @@
 
 .btn:hover {
     color: #262529;
+
     background-color: #c1b2e7;
+
     transition-duration: 0.4s;
 }
 .btn-buy{
     align-self: center;
-    color: #ffffff;
     margin-right: 0;
     padding: 10px 44px 9px 44px;
+
+    color: #ffffff;
+
     background-color: #8d81ac;
 }
 
 .btn-buy:hover{
     background-color: #312f34;
+
     color: #ffffff;
 }
 
@@ -36,6 +43,8 @@
 
 .big-btn:hover {
     color: #262529;
+
     background-color: #c1b2e7;
+
     transition-duration: 0.4s;
 }

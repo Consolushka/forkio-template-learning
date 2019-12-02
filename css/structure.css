@@ -1,0 +1,80 @@
+.structure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    background-color: #f4f4f4;
+}
+
+.advantages {
+    width: 505px;
+
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.advantages li {
+    margin-left: 120px;
+}
+
+.advantages li:before {
+    position: relative;
+    left: -135px;
+    height: 67px;
+    width: 110px;
+}
+
+.advantages li:nth-child(1):before {
+    content: url("../img/create_web_better_1.png");
+    top: 80px;
+}
+
+.advantages li:nth-child(2):before {
+    content: url("../img/powerful_tool.png");
+    top: 100px;
+}
+
+.advantages li:nth-child(3):before {
+    content: url("../img/exp_staff.png");
+}
+
+.advantages li:nth-child(4):before {
+    content: url("../img/create_web_better_2.png");
+}
+
+.advantage-name {
+    margin-top: 10px;
+    margin-bottom: 0;
+
+    letter-spacing: 0.3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.advantage-description {
+    margin-top: 13px;
+    margin-bottom: 31px;
+
+    width: 340px;
+
+    line-height: 20px;
+    color: #969ea5;
+    font-size: 16px;
+}
+
+.result {
+    font-size: 60px;
+    font-weight: bold;
+    color: #8d81ac;
+}
+
+.window {
+    width: 688px;
+    height: 580px;
+
+    background-image: url("../img/window.jpg");
+    background-position: center;
+    background-size: cover;
+}

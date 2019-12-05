@@ -10,38 +10,53 @@
 .advantages {
     width: 505px;
 
-    margin-top: 0;
+    margin-top: 67px;
     padding: 0;
     list-style: none;
 }
 
 .advantages li {
-    margin-left: 120px;
+    position: relative;
+    padding-left: 220px;
 }
 
 .advantages li:before {
-    position: relative;
-    left: -135px;
+    display: block;
+    position: absolute;
     height: 67px;
     width: 110px;
 }
 
 .advantages li:nth-child(1):before {
-    content: url("../img/create_web_better_1.png");
-    top: 80px;
+    content: " ";
+    background-image: url("../img/create_web_better_1.png");
+    left: 86px;
+    top: 4px;
 }
 
 .advantages li:nth-child(2):before {
-    content: url("../img/powerful_tool.png");
-    top: 100px;
+    content: " ";
+    background-image: url("../img/powerful_tool.png");
+    width: 90px;
+    height: 80px;
+    left: 87px;
 }
 
 .advantages li:nth-child(3):before {
-    content: url("../img/exp_staff.png");
+    content: " ";
+    background-image: url("../img/exp_staff.png");
+    left: 102px;
+    width: 60px;
+    height: 84px;
 }
 
 .advantages li:nth-child(4):before {
-    content: url("../img/create_web_better_2.png");
+    content: " ";
+    background-image: url("../img/create_web_better_2.png");
+    top: 6px;
+    left: 97px;
+    width: 71px;
+    height: 71px;
 }
 
 .advantage-name {
@@ -68,13 +83,12 @@
     font-size: 60px;
     font-weight: bold;
     color: #8d81ac;
+
+    margin-bottom: 45px;
+    margin-top: 67px;
+    margin-left: 20px;
 }
 
 .window {
-    width: 688px;
-    height: 580px;
-
-    background-image: url("../img/window.jpg");
-    background-position: center;
-    background-size: cover;
+    object-position: -20px -20px;
 }

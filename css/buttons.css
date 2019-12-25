@@ -7,6 +7,13 @@
     color: #7e798a;
 }
 
+.btn:hover {
+    box-shadow: 0 0 4px #312f34;
+}
+
+button:hover {
+    box-shadow: 0 0 4px #312f34;
+}
 .btn-header {
     margin-right: 10px;
 }
@@ -45,6 +52,74 @@
     color: #262529;
 
     background-color: #c1b2e7;
+
+    transition-duration: 0.4s;
+}
+
+
+.social-button {
+    border: none;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    font-size: 21px;
+    font-weight: bold;
+    background-position: 25px 14px;
+}
+
+.social-button-git {
+    padding: 12px 90px 16px 90px;
+    color: #000000;
+    background-image: url("../img/git-icon.png");
+}
+
+.social-button-git:hover {
+    background-color: #d0cecc;
+}
+
+.social-button-twit {
+    padding: 12px 92px 16px 92px;
+    background-position-y: 16px;
+    color: #ffffff;
+    font-weight: normal;
+    background-color: #26a6d1;
+    background-image: url("../img/twit-icon.png");
+}
+
+.social-button-twit:hover {
+    background-color: #0094c4;
+}
+
+.social-button-face {
+    background-position: 22px 16px;
+    padding: 12px 79px 16px 79px;
+    color: #ffffff;
+    font-weight: normal;
+    background-color: #3b5998;
+    background-image: url("../img/fb-icon.png");
+}
+
+.social-button-face:hover {
+    background-color: #39508d;
+}
+
+
+button[id="sub-submit"] {
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    background-color: #8d81ac;
+
+    font-size: 13px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    padding: 15px 40px;
+}
+
+button[id="sub-submit"]:hover {
+    background-color: #312f34;
+
+    color: #ffffff;
 
     transition-duration: 0.4s;
 }

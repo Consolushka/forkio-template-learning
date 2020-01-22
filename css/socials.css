@@ -24,16 +24,24 @@
     border-bottom: 1px solid #f4f4f4;
 }
 
-.user-info {
-    width: 730px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.user-container {
+    width: 325px;
 
     margin-bottom: 20px;
 }
 
+.user-link {
+    width: 312px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.user-contacts {
+    margin-top: -8px;
+}
 .user-avatar {
     margin-top: 7px;
     margin-right: 24px;
@@ -47,7 +55,7 @@
     margin-bottom: 5px;
 }
 
-.user-contacts a {
+.user-contacts span {
     color: #8d81ac;
     font-size: 16px;
     font-weight: bold;
@@ -75,6 +83,23 @@
     position: absolute;
     border: none;
     background: none;
+
+    top: 135px;
+
+    width: 25px;
+    height: 25px;
+}
+
+.user-button:hover {
+    box-shadow: none;
+}
+
+.user-previous {
+    left: -112px;
+}
+
+.user-next {
+    left: 816px;
 }
 
 .user-button:before {
@@ -88,17 +113,29 @@
 }
 
 .user-next:before {
-    left: 465px;
+    left: 4px;
+    top: 5px;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
 .user-previous:before {
-    left: -465px;
+    left: 6px;
+    top: 4px;
     -webkit-transform: rotate(-135deg);
     -ms-transform: rotate(-135deg);
     transform: rotate(-135deg);
+}
+
+.user-previous:hover:before {
+    border-color: #312f34;
+    transform: rotate(-135deg) scale(1.2, 1.2);
+}
+
+.user-next:hover:before {
+    border-color: #312f34;
+    transform: rotate(45deg) scale(1.2, 1.2);
 }
 
 .social-net {

@@ -1,4 +1,4 @@
-.btn{
+.btn {
     border-radius: 20px;
     padding: 10px 15px 9px 15px;
 
@@ -14,6 +14,7 @@
 button:hover {
     box-shadow: 0 0 4px #312f34;
 }
+
 .btn-header {
     margin-right: 10px;
 }
@@ -25,7 +26,8 @@ button:hover {
 
     transition-duration: 0.4s;
 }
-.btn-buy{
+
+.btn-buy {
     align-self: center;
     margin-right: 0;
     padding: 10px 44px 9px 44px;
@@ -35,7 +37,7 @@ button:hover {
     background-color: #8d81ac;
 }
 
-.btn-buy:hover{
+.btn-buy:hover {
     background-color: #312f34;
 
     color: #ffffff;
@@ -103,7 +105,7 @@ button:hover {
 }
 
 
-button[id="sub-submit"] {
+.btn-submit {
     cursor: pointer;
     border: none;
     border-radius: 50px;
@@ -116,7 +118,7 @@ button[id="sub-submit"] {
     padding: 15px 40px;
 }
 
-button[id="sub-submit"]:hover {
+.btn.btn-submit:hover {
     background-color: #312f34;
 
     color: #ffffff;

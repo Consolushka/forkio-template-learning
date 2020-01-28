@@ -125,3 +125,28 @@ button:hover {
 
     transition-duration: 0.4s;
 }
+
+.news-button {
+    font-size: 14px;
+    color: #8d81ac;
+
+    padding: 14px 35px 12px 25px;
+
+    background-color: #f4f4f4;
+
+    border: none;
+    border-radius: 10px;
+
+    box-shadow: none;
+}
+
+.news-button:hover {
+    color: white;
+    background-color: #5c5473;
+
+    transition-duration: 0.4s;
+}
+
+.new-extensions .news-button {
+    margin-top: 25px;
+}

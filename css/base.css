@@ -2,6 +2,7 @@ body {
     font-size: 16px;
     box-sizing: border-box;
     font-family: Calibri, sans-serif;
+    font-style: normal;
 }
 
 .visually-hidden {
@@ -11,6 +12,10 @@ body {
     margin: -1px;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
 a{
     color: inherit;
     text-decoration: none;
